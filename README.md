@@ -26,7 +26,7 @@
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/FaceMark-AI-Powered-Attendance-System.git
+git clone https://github.com/atharv2001j/FaceMark-AI-Powered-Attendance-System.git
 cd FaceMark-AI-Powered-Attendance-System
 ```
 
@@ -38,15 +38,13 @@ pip install -r requirements.txt
 
 ## Configuration
 
-1. **Setup**: Place images of the individuals in the `known_faces` directory. Each image should be named after the individual (e.g., `John_Doe.jpg`).
+1. **Setup**: Place images of the individuals in the `known_faces` directory. Each image should be named after the individual (e.g., `atharv.jpg`).
 
 2. **Run the System**: Execute the main script to start the attendance system.
 
 ```bash
-python main.py
+python app.py
 ```
-
-3. **Custom Settings**: Modify the `config.py` file to adjust recognition sensitivity, camera settings, and more.
 
 ## Usage
 
